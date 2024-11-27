@@ -1,0 +1,8 @@
+opject => questions
+startQuiz() => set index, score, next , showQuestion();
+showQuestion() => reset(), add question , add answer , selectAnswer() 
+selectAnswer() => correct or not correct , block after choose
+reset() => clean all answer every time
+showScore() => reset() , show score
+handleNextButton() => show -> index>length
+click on btn -> handleNextButton() , stat again startQuiz()
